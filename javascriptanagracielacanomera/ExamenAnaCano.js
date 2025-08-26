@@ -1,7 +1,7 @@
 
 // Examen Programa para calcular el IMC
-let peso = parseInt(prompt("Escriba su peso en kilogramos"));
-var estatura = parseInt(prompt("Escriba su estatura en decimales"));
+let peso = parseFloat(prompt("Escriba su peso en kilogramos"));
+var estatura = parseFloat(prompt("Escriba su estatura en decimales"));
 let imc = peso / (estatura * estatura);
 var diagnostico = "";
 
@@ -16,9 +16,7 @@ if (imc < 18.5) {
   diagnostico = "Obesidad";
 }
 
-alert("Peso: " + peso + " kg");
-alert("Estatura: " + estatura + " m");
-alert("IMC: " + imc.toFixed(2));
+
 alert("Su diagnóstico es " + diagnostico );
 
 
