@@ -2,7 +2,6 @@
 function suma (abc, def)
 {
     let suma = abc + def
-
     console.log(suma);
 }
 
